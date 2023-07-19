@@ -1,0 +1,29 @@
+.burger-icon{
+    display: none;
+}
+@media only screen and (max-width:800px){
+    .burger-icon{
+        display:inline;
+        cursor: pointer;
+    }
+    .navbar .menu-list{
+        position: absolute;
+        display: block;
+        top: 50px;
+        right: 0px;
+        background: rgb(28, 28, 28);
+        width: 100%;
+        color: #fff;
+        overflow: hidden;
+        transition: max-height .25s ease;
+    }
+    .navbar .menu-list li{
+        margin: 20px;
+    }
+    .header .row{
+        flex-wrap: wrap;
+    }
+    .header .logo{
+        z-index: 1;
+    }
+}
